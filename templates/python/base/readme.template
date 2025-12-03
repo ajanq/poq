@@ -1,0 +1,30 @@
+# {{project_name}}
+
+This project was generated using the poq CLI tool.
+
+## Setup
+
+1. Ensure you have Python {{python_version}} installed.
+2. Create a virtual environment:   ```
+   python -m venv venv   ```
+3. Activate the virtual environment:
+   - On Windows: `venv\Scripts\activate`
+   - On macOS and Linux: `source venv/bin/activate`
+4. Install the required packages:   ```
+   pip install -r requirements.txt   ```
+
+## Usage
+
+[Provide instructions on how to use the project]
+
+## Development
+
+[Provide instructions for developers working on the project]
+
+## Testing
+
+[Provide instructions on how to run tests]
+
+## License
+
+[Specify the license for your project]

@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+def main():
+    # Sample data
+    data = {'x': [1, 2, 3, 4, 5], 'y': [2, 4, 6, 8, 10]}
+    df = pd.DataFrame(data)
+
+    # Plot
+    plt.figure(figsize=(10, 6))
+    plt.plot(df['x'], df['y'], marker='o')
+    plt.title('Sample Plot')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+    plt.savefig('sample_plot.png')
+    plt.close()
+
+    print("Sample plot saved as 'sample_plot.png'")
+
+if __name__ == '__main__':
+    main()

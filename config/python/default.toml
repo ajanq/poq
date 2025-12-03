@@ -1,0 +1,22 @@
+[general]
+language = "python"
+version = "3.9"
+
+[web]
+framework = "fastapi"
+dependencies = ["fastapi", "uvicorn"]
+main_file_template = "python/web/fastapi/main.py.template"
+
+[cli]
+dependencies = ["argparse"]
+main_file_template = "python/cli/main.py.template"
+[data_science]
+dependencies = ["pandas", "matplotlib"]
+main_file_template = "python/data_science/main.py.template"
+
+[base]
+dependencies = []
+main_file_template = "python/base/main.py.template"
+
+[test]
+framework = "pytest"
